@@ -149,16 +149,19 @@ body{
 .link03, .link10, .link11{
     padding: 30px 95px 30px 95px;
 }
-.link04,.link05, .link12{
+.link04,.link05{
     padding: 30px 65px 30px 65px;
 }
 .link06{
-    padding: 30px 45px 30px 45px;
+    padding: 30px 40px 30px 40px;
 }
 .link07{
     padding: 30px 75px 30px 75px;
 }
-.link08, .link09{
+.link08{
+    padding: 30px 60px 30px 60px;
+}
+.link09{
     padding: 30px 65px 30px 65px;
 }
 .link13{
@@ -166,4 +169,7 @@ body{
 }
 .link14, .link15{
     padding: 30px 75px 30px 75px;
+}
+.link12{
+    padding: 30px 60px 30px 60px;
 }
