@@ -2,40 +2,16 @@ body,html{
     height: 100%;
     width: 100%;
     margin: 0;
-    overflow: hidden;
 }
 body{
+    background-color: rgb(29, 40, 58);
     margin-top: 0px;
     display: flex;
+    padding-top: 25px;
     justify-content: center;
     align-items: center;
     position: relative;
-    background: none; /* Remove the background color */
 }
-
-.video-background {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-    overflow: hidden;
-}
-
-#bg-video {
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: no-repeat;
-    background-size: cover;
-}
-
 
 .head{
     position: fixed;
@@ -47,7 +23,7 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: rgba(10, 14, 20, 0.459);
+    background-color: rgb(10, 14, 20);
     z-index: 100;
     background-origin: border-box;
     background-repeat: no-repeat;
@@ -64,18 +40,18 @@ body{
     font-size: 35px;
     color: #f0f0f0;
 }
-.link{
+/* .link{
     text-decoration: none;
     color: #f0f0f0;
-    font-size: 30px;
-    font-family: 'zain';
+    font-size: 24px;
+    font-family: 'segoe ui';
     padding: 35px;
 }
 .link01{
     text-decoration: none;
     color: #f0f0f0;
-    font-size: 30px;
-    font-family: 'zain';
+    font-size: 24px;
+    font-family: 'segoe ui';
     padding-left: 105px;
     padding-right: 105px;
     padding-top: 25px;
@@ -84,16 +60,16 @@ body{
 .link02{
     text-decoration: none;
     color: #f0f0f0;
-    font-size: 30px;
-    font-family: 'zain';
+    font-size: 24px;
+    font-family: 'segoe ui';
     padding-left: 70px;
     padding-right: 70px;
     padding-top: 15px;
     padding-bottom: 15px;
-}
+} */
 .logbox{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .butt{
     position: relative;
@@ -118,7 +94,7 @@ body{
     height: 100%;
     width: 100%;
     position: absolute;
-    background-image: linear-gradient(to bottom right,rgb(255, 174, 0),white, rgb(42, 212, 0));
+    background-image: linear-gradient(to bottom right,red, blue);
     border-radius: 1000px;
     z-index: -1;
     padding: 5px;
@@ -126,20 +102,9 @@ body{
 }
 .butt:hover{
     z-index: 0;
-    box-shadow: 30px 0 100px rgb(255, 154, 51), -30px 0 100px rgb(15, 112, 4);
+    box-shadow: 30px 0 100px #ff0000d3, -30px 0 100px #0000ffc9;
+}
 
-}
-.link, .link01, .link02 {
-    transition: color 0.25s;
-    -webkit-transition: color 0.25s;
-    -moz-transition: color 0.25s;
-    -ms-transition: color 0.25s;
-    -o-transition: color 0.25s;
-}
-.link:hover, .link01:hover, .link02:hover{
-    color: blue;
-    font-weight: bolder;
-}
 .credit{
     position: fixed;
     bottom: 0;
@@ -161,4 +126,44 @@ body{
 
 .credit-left{
     text-align: left;
+}
+
+
+/* code post update 05 down below*/
+/* fixed padding issue of links */
+.link, .link01, .link02, .link03, .link04, .link05, .link06, .link07, .link08, .link09, .link10, .link11, .link12, .link13, .link14, .link15{
+    text-decoration: none;
+    color: #f0f0f0;
+    font-size: 30px;
+    font-family: 'zain';
+}
+.link{
+    padding: 30px 50px 30px 50px;
+}
+.link01{
+    padding: 30px 60px 30px 60px;
+}
+.link02{
+    padding: 30px 42px 30px 42px;
+}
+.link03, .link10, .link11{
+    padding: 30px 95px 30px 95px;
+}
+.link04,.link05, .link12{
+    padding: 30px 65px 30px 65px;
+}
+.link06{
+    padding: 30px 45px 30px 45px;
+}
+.link07{
+    padding: 30px 75px 30px 75px;
+}
+.link08, .link09{
+    padding: 30px 65px 30px 65px;
+}
+.link13{
+    padding: 30px 70px 30px 70px;
+}
+.link14, .link15{
+    padding: 30px 75px 30px 75px;
 }
